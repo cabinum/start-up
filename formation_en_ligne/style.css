@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.acceuil{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 550px;
+    background-image: url(img/internet-2041814_1920.jpg);
+    background-size: 100%;
+}
+
+.intro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 3vh;
+}
+
+.intro h1, p{
+    text-align: center;
+}
+
+button a{
+    padding: 2vh;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button{
+    background-color: blue;
+    border: 0px;
+    padding: 2vh;
+    border-radius: 2vh;
+    text-align: center;
+}
+
+.log1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2vh;
+}
+
+.logi1{
+    width: 70%;
+    background-color: lightcyan;
+    padding: 3vh;
+    margin-top: 1vh;
+    font-weight: bolder;
+    transition: transform 0.5s;
+}
+
+.logi1:hover {
+    transform: scale(1.1); /* Agrandissement de 20% */
+}
+
+.logi1 h1{
+    color: blue;
+}
+
+.logi1 h2{
+    color: blue;
+}
+
+@media all and (max-device-width: 580px){
+    .acceuil{
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    
+    .log1{
+        display: inline-block;
+        gap: 10px;
+        justify-content: unset;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 1vh;
+        padding: 3vh;
+    }
+    
+    .logi1{
+        width: 100%;
+        background-color: lightcyan;
+        padding: 3vh;
+        margin-top: 0vh;
+        font-weight: bolder;
+    }
+}

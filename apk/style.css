@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.acceuil{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/app-1013616_1280.jpg);
+    background-size: contain;
+}
+
+
+.intro{
+    margin-top: 4vh;
+    padding: 3vh;
+    transition: transform 0.5s;
+}
+
+strong{
+    color: blue;
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.tout{
+    margin: 5vh;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button{
+    background-color: blue;
+    border: 0px;
+    padding: 2vh;
+    border-radius: 2vh;
+    text-align: center;
+}
+
+.conbord{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bordure{
+    border-radius: 3vh;
+    border-bottom: 10px solid rgba(0, 0, 255, 0.26);
+    border-top: 10px solid rgba(0, 0, 255, 0.568);
+    width: 21%;
+    height: auto;
+    background-color: lightcyan;
+    padding: 1vh;
+    margin-top: 3vh;
+    transition: transform 0.5s;
+}
+
+.bordure:hover {
+    transform: scale(1.1); /* Agrandissement de 20% */
+}
+
+.bordure h3{
+    font-family: cursive;
+    text-align: center;
+    border-bottom: 1px solid lightblue;
+    color: blue;
+}
+
+.bordure p{
+    text-align: justify;
+}
+
+.log{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 4vh;
+}
+
+.logi{
+    text-align: center;
+    width: 26%;
+    background-color: lightcyan;
+    padding: 3vh;
+    margin-top: 1vh;
+    color: blue;
+    font-weight: bolder;
+    transition: transform 0.5s;
+}
+
+.logi:hover {
+    transform: scale(1.1); /* Agrandissement de 20% */
+}
+
+.logi li{
+    color: black;
+}
+
+.log1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2vh;
+}
+
+.logi1{
+    width: 46%;
+    background-color: lightcyan;
+    padding: 3vh;
+    margin-top: 1vh;
+    font-weight: bolder;
+    transition: transform 0.5s;
+}
+
+.logi1:hover {
+    transform: scale(1.1); /* Agrandissement de 20% */
+}
+
+.logi1 h1{
+    color: blue;
+}
+
+.logi1 p{
+    color: blue;
+}
+
+@media all and (max-device-width: 580px){
+    .acceuil{
+        width: 100%;
+        height: 200px;
+        background-image: url(img/app-1013616_1280.jpg);
+        background-size: contain;
+        transition: transform 0.25s;
+    }
+
+    .intro{
+        margin-top: 2vh;
+        padding: 2vh;
+    }
+
+    .intro p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+    }
+
+    .conbord{
+        display: inline-block;
+        justify-content: unset;
+        gap: 0px;
+    }
+    
+    .bordure{
+        margin: auto;
+        border-radius: 3vh;
+        border-bottom: 5px solid rgba(0, 0, 255, 0.26);
+        border-top: 5px solid rgba(0, 0, 255, 0.568);
+        width: 95%;
+        height: auto;
+        background-color: lightcyan;
+        margin-top: 3vh;
+        padding: 1vh;
+    }
+
+    .log{
+        display: inline-block;
+        gap: 10px;
+        justify-content: unset;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 4vh;
+    }
+    
+    .logi{
+        text-align: center;
+        width: 97%;
+        background-color: lightcyan;
+        padding: 3vh;
+        margin-top: 1vh;
+        color: blue;
+        font-weight: bolder;
+        transition: transform 0.5s;
+    }
+    
+    .logi li{
+        color: black;
+    }
+    
+    .log1{
+        display: inline-block;
+        gap: 10px;
+        justify-content: unset;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 2vh;
+        padding: 3vh;
+    }
+    
+    .logi1{
+        width: 100%;
+        background-color: lightcyan;
+        padding: 3vh;
+        margin-top: 1vh;
+        font-weight: bolder;
+        transition: transform 0.5s;
+    }
+}

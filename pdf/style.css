@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 5px;
+    background-color: blue;
+    border: 0px;
+    padding: 2vh;
+    border-radius: 2vh;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.liste{
+    display: flex;
+    overflow: scroll;
+    justify-content: center;
+    gap: 1vh;
+    margin-top: 7vh;
+}
+
+.l{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 20%;
+    border-radius: 5vh;
+    background-color: lightcyan;
+    padding: 2vh;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+}
+
+.conteneur1{
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+.coli{
+    padding: 4vh;
+    line-height: 1.5;
+    background-color: lightcyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 30%;
+}
+
+@media all and (max-device-width: 580px){
+
+    .liste{
+        display: flex;
+        flex-wrap: wrap;
+        overflow: scroll;
+        justify-content: unset;
+        gap: 2vh;
+        margin-top: 1vh;
+        padding: 2vh;
+    }
+    
+    .l{
+        font-family: Cambria, Cochin;
+        width: 45%;
+        border-radius: 5vh;
+        background-color: blue;
+        padding: 2vh;
+        color: lightcyan;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .conteneur1{
+        padding: 2vh;
+        display: inline-block;
+        justify-content: unset;
+    }
+    
+    .coli{
+        padding: 4vh;
+        line-break: 1.5;
+        text-align: justify;
+        background-color: lightcyan;
+        background-image: none;
+        color: black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: auto;
+    }
+}
