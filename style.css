@@ -191,6 +191,11 @@ button{
         height: auto;
     }
 
+    .structure p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 5px;
+    }
+
     .conbord{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding:2vh;
@@ -202,6 +207,7 @@ button{
 
     .conbord p{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 16px;
     }
     
     .bordure{
